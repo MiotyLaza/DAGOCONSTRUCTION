@@ -1,0 +1,153 @@
+/* Style général */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #000000;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 20px;
+}
+
+/* Navigation */
+.main-header {
+    background-color: #f4b400;
+    padding: 10px 0;
+}
+
+.navigation ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+.navigation ul li {
+    margin: 0 15px;
+}
+
+.navigation ul li a {
+    color: rgb(1, 1, 1);
+    text-decoration: none;
+}
+
+.navigation ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Accueil */
+.home-page {
+    background-image: url("file/B23F2DE8-8EA0-45CD-B7AB-538FD6698DD3.jpg");
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.home-intro {
+    text-align: center;
+    color: #ffffff;
+    font-size: 50px;
+}
+
+.logo {
+    max-width: 200px;
+}
+
+/* Services */
+.services-page {
+    background-color: #333;
+}
+
+.services-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.service-card {
+    width: 45%; /* Pour afficher deux services par ligne */
+    margin-bottom: 20px;
+    text-align: center;
+    color: #000;
+}
+
+/* Style pour centrer l'image et aligner le texte */
+.service-card img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Pour centrer les titres par rapport au contenu */
+.service-card h2,
+.service-card h3,
+.service-card p {
+    text-align: center;
+}
+
+/* Contact */
+.contact-page {
+    background-image: url("file/end.jpg");
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.contact-container {
+    text-align: center;
+    color: #fff;
+}
+
+.contact-details {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 20px;
+}
+
+.contact-item p {
+    font-size: 1.2rem;
+}
+
+.highlight {
+    background-color: #f4b400;
+    color: #333;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.contact-logo {
+    max-width: 150px;
+    margin-top: 20px;
+}
+.services-container {
+background-color: #faf3f3;
+}
+.texte {
+background-color: #f4b400;
+width: 500px;
+position: relative;
+left: 12%;
+}
+.serv {
+    background-color: #333;
+}
+.nom {
+    font-size: 50px;
+}
